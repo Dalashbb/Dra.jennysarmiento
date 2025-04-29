@@ -217,7 +217,7 @@ body{
 /*Sobre la doctora*/
 .sobre-mi {
     position: relative;
-    background-image: url('IMAGENES/22.png');
+    background-image: url('22.png');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 1000px auto;
