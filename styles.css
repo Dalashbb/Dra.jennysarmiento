@@ -1,62 +1,67 @@
 /*INDEX*/
-/* Fuente general*/ 
-body{
+
+/* Fuente general */ 
+body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FDEFF4;
     color: #DB81A1;
 }
-/* Contenedores*/ 
-.container{
+
+/* Contenedores */
+.container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
-/* Top bar*/ 
-.top-bar{
-    background-color:#FDEFF4;
+
+/* Top bar */ 
+.top-bar {
+    background-color: #FDEFF4;
     color: #DB81A1;
     padding: 10px 0;
     text-align: center;
     font-size: 14px;
 }
-.top-bar a{
+.top-bar a {
     color: #DB81A1;
     text-decoration: none;
     margin: 0 10px;
 }
-/* Header y nav*/ 
-.main-header{
-    background-color:#FDEFF4;
+
+/* Header y nav */ 
+.main-header {
+    background-color: #FDEFF4;
     padding: 20px 0;
     border-bottom: 1px solid #e0e0e0;
 }
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+.logo {
     height: 90px;
-    width:auto;
+    width: auto;
 }
-.main-nav a{
+.main-nav a {
     margin-left: 20px;
     text-decoration: none;
     color: #DB81A1;
     font-weight: 500;
 }
-.main-nav a:hover{
-    color:#ffffff;
+.main-nav a:hover {
+    color: #ffffff;
 }
+
 /* Hero con imagen */ 
-.hero{
+.hero {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
-.hero-image{
+.hero-image {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -71,14 +76,14 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.45);
     z-index: 1;
-  }
-.hero-image img{
+}
+.hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-.hero-content{
+.hero-content {
     position: absolute;
     top: 50%;
     right: 5%;
@@ -90,12 +95,12 @@ body{
     max-width: 400px;
     z-index: 2;
 }
-.hero-content h1{
+.hero-content h1 {
     font-size: 3em;
     line-height: 1.2;
     margin-bottom: 20px;
 }
-.hero-content .btn{
+.hero-content .btn {
     background-color: #DB81A1;
     color: #ffffff;
     padding: 12px 28px;
@@ -103,11 +108,12 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
-.hero-content .btn:hover{
+.hero-content .btn:hover {
     background-color: #F6CAD4;
     color: #DB82A2;
 }
-/*Bienvenida*/ 
+
+/* Bienvenida */ 
 .bienvenida {
     padding: 60px 40px;
     background-color: #ffffff;
@@ -126,32 +132,27 @@ body{
     width: 100%;
     flex-direction: row-reverse; 
 }
-
 .bienvenida-texto {
     flex: 1 1 500px;
     max-width: 550px;
     text-align: left;
 }
-
 .bienvenida-texto h2 {
     font-size: 1.8em;
     font-weight: 700;
     color: #DB81A1;
 }
-
 .bienvenida-texto h3 {
     color: #C7DD9F;
     font-size: 1.2em;
     margin-bottom: 15px;
 }
-
 .bienvenida-texto p {
     font-size: 1.05em;
     color: #000000;
     margin-bottom: 20px;
     line-height: 1.6;
 }
-
 .btn-servicios-principal {
     background-color: #DB81A1;
     color: #ffffff;
@@ -162,25 +163,21 @@ body{
     font-size: 0.9em;
     margin-top: 20px;
 }
-
 .btn-servicios-principal:hover {
     background-color: #F6CAD4;
     color: #DB82A2;
 }
-
 .bienvenida-derecha {
     flex: 1 1 300px;
     max-width: 350px;
     text-align: center;
 }
-
 .titulo-comenzar {
     font-size: 1.6em;
     color: #DB81A1;
     margin-bottom: 20px;
     font-weight: bold;
 }
-
 .btn-servicios {
     display: block;
     padding: 10px 0;
@@ -193,39 +190,37 @@ body{
     width: 100%;
 }
 
-/* Rosados */
+/* Botones Rosados */
 .btn-servicios.rosa {
     background-color: #DB81A1;
     color: #ffffff;
 }
-
 .btn-servicios.rosa:hover {
     background-color: #F6CAD4;
     color: #DB82A2;
 }
 
-/* Verdes */
+/* Botones Verdes */
 .btn-servicios.verde {
     background-color: #C7DD9F;
     color: #ffffff;
 }
-
 .btn-servicios.verde:hover {
     background-color: #E0E8A7;
     color: #ffffff;
 }
-/*Sobre la doctora*/
+
+/* Sobre la doctora */
 .sobre-mi {
     position: relative;
     background-image: url('22.png');
     background-repeat: no-repeat;
-    background-position:left center;
+    background-position: left center;
     background-size: 1000px auto;
     padding: 50px 0;
     min-height: 500px;
     overflow: hidden;
 }
-
 .sobre-mi::before {
     content: '';
     position: absolute;
@@ -236,7 +231,6 @@ body{
     background-color: rgba(255, 255, 255, 0.45); 
     z-index: 1;
 }
-
 .sobre-mi-contenido {
     position: relative;
     z-index: 2;
@@ -247,87 +241,88 @@ body{
     margin: 0 auto;
     padding: 0 60px;
 }
-.imagen-doctora img{
+.imagen-doctora img {
     width: 100%;
     max-width: 400px;
     height: auto;
 }
-.texto-sobre-mi{
+.texto-sobre-mi {
     max-width: 550px;
     text-align: left;
 }
-.texto-sobre-mi h2{
+.texto-sobre-mi h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
-.texto-sobre-mi .subtitulo{
+.texto-sobre-mi .subtitulo {
     font-size: 1.2rem;
     color: #C7DD9F;
     margin-bottom: 20px;
     font-weight: bold;
 }
-.texto-sobre-mi .descripcion{
+.texto-sobre-mi .descripcion {
     font-size: 1rem;
     line-height: 1.6;
     color: #000000;
     margin-bottom: 30px;
 }
-.botones{
+.botones {
     display: flex;
     gap: 20px;
 }
-.botones .btn{
+.botones .btn {
     padding: 10px 20px;
     background-color: #DB81A1;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
-.botones .btn.btn:hover{
+.botones .btn:hover {
     background-color: #F6CAD4;
     color: #DB82A2;
 }
-/*Ubicación*/ 
-.ubicacion-section{
+
+/* Ubicación */
+.ubicacion-section {
     background-color: #ffffff;
     padding: 60px 20px;
 }
-.ubicacion-contenido{
+.ubicacion-contenido {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
     gap: 30px;
 }
-.mapa{
+.mapa {
     flex: 1 1 55%;
     min-height: 400px;
     overflow: hidden;
 }
-.mapa iframe{
+.mapa iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
-.ubicacion-texto{
+.ubicacion-texto {
     flex: 1 1 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
 }
-.ubicacion-texto h2{
-    color:#DB81A1;
+.ubicacion-texto h2 {
+    color: #DB81A1;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
-.ubicacion-texto p{
+.ubicacion-texto p {
     font-size: 1.05em;
     color: #000000;
     margin-bottom: 30px;
     line-height: 1.6;
 }
-.btn.btn-secondary{
+.btn.btn-secondary {
     background-color: #DB81A1;
     color: #ffffff;
     padding: 12px 24px;
@@ -337,33 +332,35 @@ body{
     display: inline-block;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.btn.btn-secondary:hover{
+.btn.btn-secondary:hover {
     background-color: #F6CAD4;
     color: #DB82A2;
 }
-/*Testimonios*/
-.testimonio{
+
+/* Testimonios */
+.testimonio {
     background-color: #FDEFF4;
     padding: 60px 20px;
     text-align: center;
 }
-.testimonio h3{
+.testimonio h3 {
     font-size: 1.8em;
     color: #DB81A1;
     margin-bottom: 15px;
 }
-.testimonio .container{
+.testimonio .container {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
 }
-/*Slider*/
-.slider{
+
+/* Slider */
+.slider {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
 }
-.slide{
+.slide {
     display: none;
     background-color: #C7DD9F;
     padding: 40px 30px;
@@ -373,14 +370,14 @@ body{
     margin: 0 auto;
     position: relative;
 }
-.slide.active{
+.slide.active {
     display: block;
 }
-@keyframes fade{
-    from {opacity: 0; transform: translateX(30px);}
-    to{ opacity: 1; transform: translateY(0);}
+@keyframes fade {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateY(0); }
 }
-.foto-perfil{
+.foto-perfil {
     width: 90px;
     height: 90px;
     object-fit: cover;
@@ -388,7 +385,7 @@ body{
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-.estrellas{
+.estrellas {
     color: #DB82A2;
     font-size: 20px;
     margin: 10px 0;
