@@ -877,6 +877,7 @@ body{
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
+    justify-content: center;
 }
 .agenda-icono img{
     width: 120px;
@@ -890,15 +891,60 @@ body{
     font-weight: 700;
 }  
 .agenda-texto p{
+    color: #000000;
     font-size: 1rem;
     margin: 0.3rem 0;
 }
+.agenda-texto strong{
+    font-weight: bold;
+    color: #DB81A1;
+}
 .agenda-subtitulo-form{
+    text-align: center;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: bold;
     color: #DB81A1;
+    margin-bottom: 1rem;
 }
-    font-weight: 600;
-    color: #DB81A1;
-}
-
+.formulario-cita {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .btn-agendar {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #DB81A1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .btn-agendar:hover {
+    background-color: #F6CAD4;
+    color: #DB82A2;
+  }
+  
