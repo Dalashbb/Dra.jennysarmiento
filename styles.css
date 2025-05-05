@@ -554,86 +554,6 @@ footer{
     transform: scale(1.1);
 }
 /*SERVICIOS*/
-body{
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: #FDEFF4;
-    color: #DB81A1;
-}
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-/* Top bar*/ 
-.top-bar{
-    background-color:#FDEFF4;
-    color: #DB81A1;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
-}
-.top-bar a,
-.top-bar span{
-    margin: 0 10px;
-    color:#DB81A1;
-    text-decoration: none;
-    font-weight: bold;
-}
-header{
-    padding: 20px 0;
-    border-bottom: none;
-}
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.logo{
-    height: 90px;
-    width:auto;
-}
-.main-header a{
-    margin: 0 10px;
-    text-decoration: none;
-    color: #DB81A1;
-    font-weight: bold;
-}
-.main-header a:hover,
-.main-header a.activo{
-    color: #ffffff;
-}
-/* Hero */ 
-.hero-image {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.hero-image img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-.hero-content{
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-    text-align: right;
-    color: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    max-width: 400px;
-    z-index: 2;
-}
-.hero-content h1{
-    font-size: 3em;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
 /* Instroducción */ 
 .intro-servicios{
     background-color: #ffffff;
@@ -697,66 +617,6 @@ header{
     color: #DB82A2;
 }
 /*Armonizacion facial - Microblanding y micropigmentación - Alopecia */
-body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: #FDEFF4;
-    color: #DB81A1;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/* Top bar */
-.top-bar {
-    background-color: #FDEFF4;
-    color: #DB81A1;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
-.top-bar a,
-.top-bar span {
-    margin: 0 10px;
-    color: #DB81A1;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Header */
-header {
-    padding: 20px 0;
-    border-bottom: none;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.logo {
-    height: 90px;
-    width: auto;
-}
-
-.main-header a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #DB81A1;
-    font-weight: bold;
-}
-
-.main-header a:hover,
-.main-header a.activo {
-    color: #ffffff;
-}
-
 /* Sección de servicios */
 .detalle-servicio {
     padding: 60px 20px;
@@ -826,277 +686,109 @@ header {
     margin-bottom: 5px;
 }
 /*Para los pacientes*/
-body{
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FDEFF4;
-    color: #DB81A1;
-}
-/* Contenedores*/ 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-/* Top bar*/ 
-.top-bar{
-    background-color:#FDEFF4;
-    color: #DB81A1;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
-}
-.top-bar a{
-    color: #DB81A1;
-    text-decoration: none;
-    margin: 0 10px;
-}
-/* Header y nav*/ 
-.main-header{
-    background-color:#FDEFF4;
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
-}
-.header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    height: 90px;
-    width:auto;
-}
-.main-nav a{
-    margin-left: 20px;
-    text-decoration: none;
-    color: #DB81A1;
-    font-weight: 500;
-}
-.main-nav a:hover{
-    color:#ffffff;
-}
-/* Hero con imagen */ 
-.hero{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.hero-image{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.hero-image::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
-    z-index: 1;
-  }
-.hero-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-.hero-content{
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-    text-align: right;
-    color: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    max-width: 400px;
-    z-index: 2;
-}
-.hero-content h1{
-    font-size: 3em;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-.hero-content .btn{
-    background-color: #DB81A1;
-    color: #ffffff;
-    padding: 12px 28px;
-    font-size: 1.1em;
-    text-decoration: none;
-    font-weight: bold;
-}
-.hero-content .btn:hover{
-    background-color: #F6CAD4;
-    color: #DB82A2;
-}
-/*Herramientas*/ 
 .herramientas-pacientes{
     background-color: #ffffff;
-    padding: 60px 20px;
+    padding: 60px 0;
 }
 .herramientas-pacientes h2{
-    color: #DB81A1;
-    background-color: #ffffff;
-    background-size: 100% auto;
     text-align: center;
     margin-bottom: 40px;
+    font-size: 1.8em;
 }
 .herramientas-grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    justify-content: space-between;
 }
-.herramienta {
-    flex: 1 1 30%;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+.herramienta{
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 .herramienta h3{
     color: #DB81A1;
-    margin-bottom: 15px;
+    font-size: 1.4em;
 }
 .herramienta p{
-    font-size: 1em;
-    color: #000000;
     margin-bottom: 15px;
-    line-height: 1.6;
+    color: #000000;
 }
-.btn-herramienta {
-    display: inline-block;
+.herramientas-pacientes p a {
+    color: #DB81A1 ;
+    text-decoration: none;
+    font-weight: 500;
+}
+.herramientas-pacientes p a:hover {
+    text-decoration: underline;
+}
+.btn-herramienta{
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
     background-color: #DB81A1;
     color: #ffffff;
-    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    margin: 5px 5px 0 0;
     transition: background-color 0.3s ease;
-  }
-  
-  .btn-herramienta:hover {
+}
+.btn-herramienta:hover{
     background-color: #F6CAD4;
     color: #DB82A2;
-  }
-  
-  /* Estilo para enlaces normales en párrafos */
-  p a {
-    color: #DB81A1;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  p a:hover {
-    text-decoration: underline;
-  }
-  
-/*Footer*/
-footer{
-    background-color: #FDEFF4;
-    padding: 60px 20px 20px;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.95em;
-    color:#DB81A1;
 }
-.footer-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto 30px;
-    gap: 30px;
+/*Sección preguntas*/
+.preguntas-frecuentes{
+    background-color: #ffffff;
+    padding: 60px 0;
 }
-.logo-footer{
-   height: 60px;
-   width: auto;
-}
-.logo-contacto h4{
-    margin-top: 20px;
-    font-size: 1em;
-    font-weight: bold;
-    color: #DB81A1;
-}
-.logo-contacto p{
-    margin: 5px 0 15px;
-    color: #DB81A1;
-}
-/*Iconos*/
-.social-icons a{
-    display: inline-block;
-    margin: 5px 8px;
-    transition: transform 0.3 ease;
-}
-.social-icons img {
-    width: 40px;
-    height: 40px;
-}
-.social-icons a:hover{
-    transform: scale(1.1);
-}
-.footer-col{
-    flex: 1 1 200px;
-    min-width: 180px;
-}
-.footer-col h4{
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #DB81A1;
-}
-.footer-col ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footer-col ul li{
-    margin-bottom: 10px;
-}
-.footer-col ul li a{
-    text-decoration: none;
-    color: #DB81A1;
-    transition: color 0.3s ease;
-}
-.footer-col ul li:hover{
-    color: #DB81A1;
-}
-.footer-bottom{
-    border-top: 1px solid #DB81A1;
+.preguntas-frecuentes h2{
     text-align: center;
-    padding-top: 15px;
-    font-size: 0.85em;
+    margin-bottom: 40px;
+}
+.faq-item{
+    margin-bottom: 30px;
+}
+.faq-item h3{
+    color: #DB81A1;
+    font-size: 1.3em;
+}
+.faq-item p{
+    font-size: 1em;
+    color: #000000;
+}
+.faq-item.advertencia p{
+    font-weight: bold;
+    color: #000000;
+}
+/*Formulario*/
+.agenda-container{
+    padding: 4rem 2rem;
+    background-color: #ffffff;
     color: #DB81A1;
 }
-.footer-bottom a{
-    margin-left: 10px;
+.agenda-header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.agenda-icono img{
+    width: 120px;
+    height: auto;
+}
+.agenda-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color:#DB81A1;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}  
+.agenda-texto p{
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+.agenda-subtitulo-form{
+    font-size: 1.1rem;
+    font-weight: 600;
     color: #DB81A1;
-    text-decoration: none;
 }
-.footer-bottom a:hover{
-    text-decoration: underline;
-}
-/*Flecha*/
-.scroll-top{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-}
-.scroll-top a{
-    display: inline-block;
-    background-color: transparent;
-    padding: 0;
-    border-radius: 50%;
-}
-.scroll-top img{
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
-}
-.scroll-top img:hover{
-    transform: scale(1.1);
-}
+
