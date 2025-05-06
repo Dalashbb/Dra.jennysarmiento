@@ -217,7 +217,7 @@ body{
 /*Sobre la doctora*/
 .sobre-mi {
     position: relative;
-    background-image: url('IMAGENES/22.png');
+    background-image: url('22.png');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 1000px auto;
@@ -1050,4 +1050,51 @@ body{
     color: #DB81A1;
     font-weight: bold;
 }
+/*SOBRE MÍ*/
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    color: #DB81A1;
+} 
+.breadcrumb {
+    font-size: 14px;
+    padding: 30px 60px 0;
+    color: #DB81A1;
+    font-weight: bold;
+}  
+/* Sección Sobre mí */
+.sobre-mí {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+.sobre-mi-img img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+.sobre-mi-texto {
+    max-width: 500px;
+}
+.sobre-mi-texto h2 {
+    color: #DB81A1;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
 
+.sobre-mi-texto p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.sobre-mi-texto p strong{
+    font-size: 20px;
+    color: #DB81A1;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
