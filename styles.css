@@ -59,8 +59,9 @@ body{
 .hero-image{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh; 
     overflow: hidden;
+    max-height: 600px;
 }
 .hero-image::before {
     content: "";
@@ -77,6 +78,14 @@ body{
     height: 100%;
     object-fit: cover;
     display: block;
+}
+@media screen and (max-width: 768px) {
+    .hero-image {
+        height: 60vh;
+    }
+    .hero-content h1 {
+        font-size: 2em;
+    }
 }
 .hero-content{
     position: absolute;
@@ -217,7 +226,7 @@ body{
 /*Sobre la doctora*/
 .sobre-mi {
     position: relative;
-    background-image: url('22.png');
+    background-image: url('IMAGENES/22.png');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 1000px auto;
@@ -233,7 +242,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.45); 
+    background-color: rgba(255, 255, 255, 0.75); 
     z-index: 1;
 }
 
@@ -259,12 +268,6 @@ body{
 .texto-sobre-mi h2{
     font-size: 2rem;
     margin-bottom: 10px;
-}
-.texto-sobre-mi .subtitulo{
-    font-size: 1.2rem;
-    color: #C7DD9F;
-    margin-bottom: 20px;
-    font-weight: bold;
 }
 .texto-sobre-mi .descripcion{
     font-size: 1rem;
@@ -554,83 +557,18 @@ footer{
     transform: scale(1.1);
 }
 /*SERVICIOS*/
-body{
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FDEFF4;
-    color: #DB81A1;
-}
-/* Contenedores*/ 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-/* Top bar*/ 
-.top-bar{
-    background-color:#FDEFF4;
-    color: #DB81A1;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
-}
-.top-bar a{
-    color: #DB81A1;
-    text-decoration: none;
-    margin: 0 10px;
-}
-/* Header y nav*/ 
-.main-header{
-    background-color:#FDEFF4;
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
-}
-.header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    height: 90px;
-    width:auto;
-}
-.main-nav a{
-    margin-left: 20px;
-    text-decoration: none;
-    color: #DB81A1;
-    font-weight: 500;
-}
-.main-nav a:hover{
-    color:#ffffff;
-}
-/* Hero con imagen */ 
-.hero{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.hero-image{
+/* Hero */ 
+.hero-image {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
-.hero-image::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
-    z-index: 1;
-  }
 .hero-image img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
+    object-fit: cover;
 }
 .hero-content{
     position: absolute;
@@ -648,18 +586,6 @@ body{
     font-size: 3em;
     line-height: 1.2;
     margin-bottom: 20px;
-}
-.hero-content .btn{
-    background-color: #DB81A1;
-    color: #ffffff;
-    padding: 12px 28px;
-    font-size: 1.1em;
-    text-decoration: none;
-    font-weight: bold;
-}
-.hero-content .btn:hover{
-    background-color: #F6CAD4;
-    color: #DB82A2;
 }
 /* Instroducción */ 
 .intro-servicios{
@@ -723,7 +649,7 @@ body{
     background-color: #F6CAD4;
     color: #DB82A2;
 }
-/*ARMONIZACIÓN FACIAL - MICROBLANDING Y MICROPIGMENTACIÓN - ALOPECIA*/
+/*Armonizacion facial - Microblanding y micropigmentación - Alopecia */
 /* Sección de servicios */
 .detalle-servicio {
     padding: 60px 20px;
@@ -915,7 +841,7 @@ body{
     gap: 15px;
 }
   
-.form-group {
+  .form-group {
     display: flex;
     flex-direction: column;
 }
@@ -927,6 +853,7 @@ body{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+  
 .btn-agendar {
     margin-top: 10px;
     padding: 12px;
@@ -1085,7 +1012,7 @@ body {
     font-size: 26px;
     margin-bottom: 15px;
 }
-
+  
 .sobre-mi-texto p {
     font-size: 18px;
     color: #000000;
@@ -1098,3 +1025,156 @@ body {
     line-height: 1.6;
     margin-bottom: 10px;
 }
+/*CONTACTO*/ 
+.contact-main {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.contact-info, .contact-form {
+    flex: 1 1 500px;
+}
+
+/* Info lateral */
+.contact-info h2 {
+    color: #DB81A1;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-links a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: all 0.3s ease;
+}
+
+.contact-links a:first-child {
+    background-color: #DB81A1;
+    color: #ffffff;
+}
+
+.contact-links a:first-child:hover {
+    background-color: #F6CAD4;
+    color: #DB82A2;
+}
+
+.contact-links a:nth-child(2) {
+    background-color: #B0C886;
+    color: #ffffff;
+}
+
+.contact-links a:nth-child(2):hover {
+    background-color: #C7DD9F;
+    color: #ffffff;
+}
+
+.contact-links a:last-child {
+    background-color: #B0C886;
+    color: #ffffff;
+}
+
+.contact-links a:last-child:hover {
+    background-color: #C7DD9F;
+}
+
+/* Formulario */
+.contact-form h2 {
+    color: #DB81A1;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    font-size: 0.95em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-form .warning {
+    color: #DB81A1;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Campos */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #DB81A1;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    resize: vertical;
+}
+
+/* Botón enviar */
+.btn-enviar {
+    background-color: #DB81A1;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-enviar:hover {
+    background-color: #F6CAD4;
+    color: #DB82A2;
+}
+
+/* Checkbox */
+label[for="aviso"] {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+  
